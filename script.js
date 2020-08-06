@@ -3,6 +3,6 @@ window.onload = function(){
 	md.onload = function(){
 		console.log(md.responseText);
 	}
-	md.open("GET", "https://pastebin.com/raw/Bb4uhaDh");
+	md.open("GET", "https://cors-anywhere.herokuapp.com/https://pastebin.com/Bb4uhaDh");
 	md.send();
 }
