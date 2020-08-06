@@ -1,5 +1,5 @@
 body {
-	font-family: Consolas;
+	font-family: Trebuchet MS;
 	margin: 0px;
 	background-color: #fbfbfb;
 }
@@ -16,18 +16,25 @@ div#content {
 	padding: 15px;
 }
 
-iframe {
-	border: 1px solid #111111;
-	border-radius: 4px;
+div#msgctn {
+	background-color: #dedede;
+	border-left: 5px solid black;
+	height: 200px;
+	padding-left: 6px;
+	font-size: 20px;
+	font-family: serif;
 }
 
 div#msg {
-	border: 1px solid #111111;
 	border-radius: 5px;
 	padding: 15px;
 	display: inline-block;
+	box-shadow: 0px 0px 3px black;
 }
 
 div#msg h1 {
 	margin: 0px;
+	background-color: black;
+	color: white;
+	padding: 2px;
 }
