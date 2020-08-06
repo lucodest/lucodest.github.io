@@ -8,7 +8,7 @@ div#header {
 	border: 1px solid black;
 }
 
-div#header h1 {
+h1 {
 	margin: 10px;
 }
 
@@ -17,5 +17,17 @@ div#content {
 }
 
 iframe {
-	border: none;
+	border: 1px solid #111111;
+	border-radius: 4px;
+}
+
+div#msg {
+	border: 1px solid #111111;
+	border-radius: 5px;
+	padding: 15px;
+	display: inline-block;
+}
+
+div#msg h1 {
+	margin: 0px;
 }
