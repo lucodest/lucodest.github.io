@@ -1,3 +1,21 @@
 body {
 	font-family: Consolas;
+	margin: 0px;
+	background-color: #fbfbfb;
+}
+
+div#header {
+	border: 1px solid black;
+}
+
+div#header h1 {
+	margin: 10px;
+}
+
+div#content {
+	padding: 15px;
+}
+
+iframe {
+	border: none;
 }
