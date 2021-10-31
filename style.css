@@ -62,12 +62,10 @@ button{
     padding: 1vw;
     gap: 10px;
 
-
-
     grid-template-areas: "a b b d"
-                    "a c c d"
-                    "e e e f"
-                    "e e e f";
+                        "a c c d"
+                        "e e e f"
+                        "e e e f";
 }
 
 .projitem{
