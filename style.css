@@ -14,7 +14,7 @@ button{
 #t{
     color: #3e3e3e;
     margin: 0px;
-    font-size: 4vw;
+    font-size: max(4vw, 4vh);
 }
 
 #msg{
@@ -51,4 +51,26 @@ button{
     font-size: 2vh;
     padding: 1vh 3vh;
 
+}
+
+#projgrid{
+    display: grid;
+    position: absolute;
+    left: 0;
+    width: 98vw;
+    aspect-ratio: 1;
+    padding: 1vw;
+    gap: 10px;
+
+
+
+    grid-template-areas: "a b b d"
+                    "a c c d"
+                    "e e e f"
+                    "e e e f";
+}
+
+.projitem{
+    border: 1px solid #626262;
+    border-radius: 8px;
 }
