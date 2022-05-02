@@ -32,6 +32,10 @@ var projection = ortho(s * aspect, -s * aspect, s, -s);
 //get WebGL2 context
 var gl = canvas.getContext("webgl2");
 
+if(!gl){
+    alert("Seu pc e veio pra caraio e n suporta WebGL2\ncompra um pc mais novo seu burro fudido");
+}
+
 //set clear color
 gl.clearColor(0, 0, 0, 1);
 
