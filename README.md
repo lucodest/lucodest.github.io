@@ -1,5 +1,5 @@
-# Minha página
-### Aqui tem meu curicullum
-### E outros experimentozinhos
+### Minha página
+- Aqui tem meu curicullum
+- E outros experimentozinhos
 
-Sinta-se livre para explorar
+Sinta-se livre para explorar!
